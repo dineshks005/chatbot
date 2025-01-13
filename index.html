@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeotap CDP Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="chatbot-container">
+        <div id="header">
+            <div class="logo-placeholder">
+                <i class="fas fa-robot"></i>
+            </div>
+            <h2>Zeotap CDP Support</h2>
+        </div>
+        <div id="chat-box">
+            <div id="messages"></div>
+        </div>
+        <div id="input-container">
+            <label for="cdp-dropdown">Choose a Topic:</label>
+            <select id="cdp-dropdown">
+                <option value="">Select a Topic</option>
+                <option value="Zeotap">Zeotap</option>
+                <option value="Segment">Segment</option>
+                <option value="mParticle">mParticle</option>
+            </select>
+
+            <label for="faq-dropdown">Choose a Question:</label>
+            <select id="faq-dropdown" disabled>
+                <option value="">Select a question</option>
+            </select>
+
+            <button id="send-button" disabled>Send</button>
+        </div>
+        
+        <!-- Added Footer -->
+        <div class="footer">
+            <p>Designed by <span class="designer">DINESH KS</span></p>
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Simplified Footer -->
+<div class="footer">
+    <p>Designed by <span class="designer">DINESH KS</span></p>
+    <div class="social-links">
+        <a href="https://github.com/dineshks005/zeotap.git" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/dinesh-k-s-3575b625a" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:dineshks2001@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+</div>
+</body>
+</html>
